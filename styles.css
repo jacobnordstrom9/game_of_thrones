@@ -1,0 +1,66 @@
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    background-image: url(https://desktopwalls.net/wp-content/uploads/2017/07/Winter%20Is%20Coming%20House%20Stark%20Desktop%20Wallpaper.jpg);
+    background-position: 50% 0;
+}
+
+img{
+    display: flex;
+    margin: 5px;
+}
+
+div{
+    justify-content: center;
+    text-align: center;
+}
+
+.book-output{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 12px;
+    overflow-wrap: break-word;
+    background-color: black;
+    opacity: 50%;
+    color: white;
+}
+
+
+/*  Character Cards */
+.card-output {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 12px;
+    overflow-wrap: break-word;
+    background-color: black;
+    opacity: 50%;
+    color: white;
+}
+
+@media screen and (max-width: 767px) {
+    .card-output {
+        grid-template-columns: 1fr;
+    }
+}
+.card {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+}
+
+.card-titles {
+    color: black;
+}
+
+.card-title-p {
+    color: black;
+}
+.card-title-span {
+    font-size: 18px;
+    font-weight: bold;
+}
